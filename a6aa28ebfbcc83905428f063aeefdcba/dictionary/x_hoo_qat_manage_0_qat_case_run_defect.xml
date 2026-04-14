@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4980123fbc007905428f063aeefdcc8" label="QAT Case Run Defect" max_length="40" name="x_hoo_qat_manage_0_qat_case_run_defect" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="QAT Case" max_length="32" name="qat_case" reference="x_hoo_qat_manage_0_qat_cases" type="reference"/>
+        <element label="Defect Number" max_length="32" name="defect_number" reference="rm_defect" type="reference"/>
+        <index name="index">
+            <element name="defect_number"/>
+        </index>
+        <index name="index2">
+            <element name="qat_case"/>
+        </index>
+    </element>
+</database>

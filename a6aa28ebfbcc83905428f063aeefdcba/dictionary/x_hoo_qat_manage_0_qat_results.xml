@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca2345e7fbccc3905428f063aeefdc6b" label="QAT Results" max_length="40" name="x_hoo_qat_manage_0_qat_results" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="QAT Case Step Version" max_length="32" name="qat_case_step_version" reference="x_hoo_qat_manage_0_qat_case_steps_version" type="reference"/>
+        <element choice="3" label="QAT Result" max_length="40" name="qat_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
+                <element inactive_on_update="false" label="Blocked" sequence="2" value="blocked"/>
+            </choice>
+        </element>
+        <element label="Environment" max_length="32" name="environment" reference="x_hoo_qat_manage_0_qat_servicenow_environment" type="reference"/>
+        <element label="QAT Case" max_length="32" name="qat_case" reference="x_hoo_qat_manage_0_qat_cases" type="reference"/>
+        <element label="QAT Case Run" max_length="32" name="qat_case_run" reference="x_hoo_qat_manage_0_qat_case_run" type="reference"/>
+        <element label="Run By" max_length="32" name="run_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="qat_case"/>
+        </index>
+        <index name="index2">
+            <element name="qat_case_run"/>
+        </index>
+        <index name="index3">
+            <element name="qat_case_step_version"/>
+        </index>
+        <index name="index4">
+            <element name="run_by"/>
+        </index>
+    </element>
+</database>

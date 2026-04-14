@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="63a601affb4007905428f063aeefdc4d" label="QAT Case Suite" max_length="40" name="x_hoo_qat_manage_0_qat_case_suite" type="collection">
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

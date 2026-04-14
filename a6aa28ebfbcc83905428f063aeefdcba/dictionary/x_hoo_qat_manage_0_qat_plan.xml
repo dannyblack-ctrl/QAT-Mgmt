@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5dbf24a3fbc0c3905428f063aeefdc74" label="QAT Plan" max_length="40" name="x_hoo_qat_manage_0_qat_plan" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Planned Duration" max_length="255" name="planned_duration" type="glide_duration"/>
+        <element choice="3" default="pending" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Work in Progress" sequence="1" value="work_in_progress"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Release" max_length="32" name="release" reference="rm_release_scrum" type="reference"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Planned Start Date" max_length="255" name="planned_start_date" type="glide_date"/>
+        <element label="Planned End Date" max_length="255" name="planned_end_date" type="glide_date"/>
+        <index name="index">
+            <element name="release"/>
+        </index>
+    </element>
+</database>

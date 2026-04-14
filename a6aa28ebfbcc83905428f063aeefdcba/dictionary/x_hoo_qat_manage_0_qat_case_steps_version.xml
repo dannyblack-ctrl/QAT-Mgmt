@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="59cef0e7fb0cc3905428f063aeefdcd7" label="QAT Case Steps Version" max_length="40" name="x_hoo_qat_manage_0_qat_case_steps_version" type="collection">
+        <element label="Version" max_length="40" name="version" type="integer"/>
+        <element label="Story" max_length="32" name="story" reference="rm_story" type="reference"/>
+        <element label="Post Conditions" max_length="1000" name="post_conditions" type="string"/>
+        <element label="Case Steps" max_length="40" name="case_steps" type="glide_list"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pre Conditions" max_length="1000" name="pre_conditions" type="string"/>
+        <element label="QAT Case" max_length="32" name="qat_case" reference="x_hoo_qat_manage_0_qat_cases" type="reference"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Retired" sequence="2" value="retired"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="story"/>
+        </index>
+        <index name="index4">
+            <element name="qat_case"/>
+        </index>
+    </element>
+</database>
