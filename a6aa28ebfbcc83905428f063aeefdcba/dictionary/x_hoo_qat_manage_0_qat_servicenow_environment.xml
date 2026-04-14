@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="bd45cd23fb4007905428f063aeefdc01" label="QAT ServiceNow Environment" max_length="40" name="x_hoo_qat_manage_0_qat_servicenow_environment" type="collection">
-        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element label="Name" max_length="40" name="name" type="string"/>
