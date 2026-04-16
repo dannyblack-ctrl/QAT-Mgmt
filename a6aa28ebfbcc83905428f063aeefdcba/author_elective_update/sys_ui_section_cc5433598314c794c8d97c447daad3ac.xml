@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 2" section_id="cc5433598314c794c8d97c447daad3ac" sys_domain="global" table="x_hoo_qat_manage_0_qat_case_steps_version" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>richard.cripps</sys_created_by>
+            <sys_created_on>2026-04-16 14:27:49</sys_created_on>
+            <sys_id>585473598314c794c8d97c447daad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">cc5433598314c794c8d97c447daad3ac</sys_ui_section>
+            <sys_updated_by>richard.cripps</sys_updated_by>
+            <sys_updated_on>2026-04-16 14:27:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_hoo_qat_manage_0_qat_case_steps_version</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>richard.cripps</sys_created_by>
+            <sys_created_on>2026-04-16 14:27:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc5433598314c794c8d97c447daad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hoo_qat_manage_0_qat_case_steps_version</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="QAT Management" source="x_hoo_qat_manage_0">a6aa28ebfbcc83905428f063aeefdcba</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</sys_scope>
+            <sys_update_name>sys_ui_section_cc5433598314c794c8d97c447daad3ac</sys_update_name>
+            <sys_updated_by>richard.cripps</sys_updated_by>
+            <sys_updated_on>2026-04-16 14:27:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</application>
+        <file_path/>
+        <instance_id>90dde31c6fcd8a804c327b2f5d3ee4d6</instance_id>
+        <instance_name>lssidev</instance_name>
+        <name>sys_ui_section_cc5433598314c794c8d97c447daad3ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 2" section_id="cc5433598314c794c8d97c447daad3ac" sys_domain="global" table="x_hoo_qat_manage_0_qat_case_steps_version" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>0</position><sys_created_by>richard.cripps</sys_created_by><sys_created_on>2026-04-16 14:27:49</sys_created_on><sys_id>585473598314c794c8d97c447daad31e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 2" display_value="New section 2" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">cc5433598314c794c8d97c447daad3ac</sys_ui_section><sys_updated_by>richard.cripps</sys_updated_by><sys_updated_on>2026-04-16 14:27:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 2</caption><header>false</header><name>x_hoo_qat_manage_0_qat_case_steps_version</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>richard.cripps</sys_created_by><sys_created_on>2026-04-16 14:27:49</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cc5433598314c794c8d97c447daad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_hoo_qat_manage_0_qat_case_steps_version</sys_name><sys_overrides/><sys_package display_value="QAT Management" source="x_hoo_qat_manage_0">a6aa28ebfbcc83905428f063aeefdcba</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</sys_scope><sys_update_name>sys_ui_section_cc5433598314c794c8d97c447daad3ac</sys_update_name><sys_updated_by>richard.cripps</sys_updated_by><sys_updated_on>2026-04-16 14:27:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>419189302</payload_hash>
+        <record_name>QAT Case Steps Version</record_name>
+        <reverted_from/>
+        <source>f6ad3405fb1883545428f063aeefdcaf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>richard.cripps</sys_created_by>
+        <sys_created_on>2026-04-16 14:27:49</sys_created_on>
+        <sys_id>d85473598314c794c8d97c447daad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d96b0ea070000001</sys_recorded_at>
+        <sys_updated_by>richard.cripps</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:27:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9c5473593214c794e7e24acf68a5c920</update_guid>
+        <update_guid_history>9c5473593214c794e7e24acf68a5c920:419189302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>richard.cripps</sys_created_by>
+        <sys_created_on>2026-04-16 14:29:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02128c3fb0d949348006056d63238f84</sys_id>
+        <sys_metadata>cc5433598314c794c8d97c447daad3ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 2</sys_name>
+        <sys_package display_value="QAT Management" source="x_hoo_qat_manage_0">a6aa28ebfbcc83905428f063aeefdcba</sys_package>
+        <sys_parent display_value="QAT Case Steps Version">59cef0e7fb0cc3905428f063aeefdcd7</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</sys_scope>
+        <sys_scope_delete display_value="">05b6c47c34b945a480813ca8a700bf90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_cc5433598314c794c8d97c447daad3ac</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_cc5433598314c794c8d97c447daad3ac">d85473598314c794c8d97c447daad321</sys_update_version>
+        <sys_updated_by>richard.cripps</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
