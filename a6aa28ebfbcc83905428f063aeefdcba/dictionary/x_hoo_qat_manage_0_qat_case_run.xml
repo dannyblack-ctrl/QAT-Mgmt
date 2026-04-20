@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="daa10d27fb8cc3905428f063aeefdcd1" label="QAT Case Run" max_length="40" name="x_hoo_qat_manage_0_qat_case_run" type="collection">
+        <element label="Finished" max_length="40" name="finished" type="glide_date_time"/>
+        <element label="Started" max_length="40" name="started" type="glide_date_time"/>
+        <element label="Environment" max_length="32" name="environment" reference="x_hoo_qat_manage_0_qat_servicenow_environment" type="reference"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Run By" max_length="32" name="run_by" reference="sys_user" type="reference"/>
+        <element label="QAT Case" max_length="32" name="qat_case" reference="x_hoo_qat_manage_0_qat_cases" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
         <element choice="3" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In Progress" sequence="0" value="in_progress"/>
                 <element inactive_on_update="false" label="Complete" sequence="1" value="complete"/>
+                <element inactive_on_update="false" label="Abandoned" sequence="2" value="abandoned"/>
             </choice>
         </element>
-        <element label="Finished" max_length="40" name="finished" type="glide_date_time"/>
-        <element label="Environment" max_length="32" name="environment" reference="x_hoo_qat_manage_0_qat_servicenow_environment" type="reference"/>
-        <element label="Run By" max_length="32" name="run_by" reference="sys_user" type="reference"/>
-        <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
-        <element label="Started" max_length="40" name="started" type="glide_date_time"/>
-        <element label="Name" max_length="100" name="name" type="string"/>
-        <element label="QAT Case" max_length="32" name="qat_case" reference="x_hoo_qat_manage_0_qat_cases" type="reference"/>
         <index name="index">
             <element name="environment"/>
         </index>

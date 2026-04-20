@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3f25ccbafb908b145428f063aeefdc42" sys_domain="global" table="x_hoo_qat_manage_0_qat_case_run" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>richard.cripps</sys_created_by>
+            <sys_created_on>2026-04-20 12:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3725ccbafb908b145428f063aeefdc63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hoo_qat_manage_0_qat_case_run" name="x_hoo_qat_manage_0_qat_case_run" sys_domain="global" view="Default view">3f25ccbafb908b145428f063aeefdc42</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_run" sys_domain="global" view="Default view">6aa10d27fb8cc3905428f063aeefdcb3</sys_ui_section>
+            <sys_updated_by>richard.cripps</sys_updated_by>
+            <sys_updated_on>2026-04-20 12:53:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>richard.cripps</sys_created_by>
+            <sys_created_on>2026-04-20 12:58:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70460c76fbd08b145428f063aeefdc25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hoo_qat_manage_0_qat_case_run" name="x_hoo_qat_manage_0_qat_case_run" sys_domain="global" view="Default view">3f25ccbafb908b145428f063aeefdc42</sys_ui_form>
+            <sys_ui_section caption="Test Run Detail" display_value="Test Run Detail" name="x_hoo_qat_manage_0_qat_case_run" sys_domain="global" view="Default view">7c468876fbd08b145428f063aeefdc61</sys_ui_section>
+            <sys_updated_by>richard.cripps</sys_updated_by>
+            <sys_updated_on>2026-04-20 12:58:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hoo_qat_manage_0_qat_case_run</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>richard.cripps</sys_created_by>
+            <sys_created_on>2026-04-20 12:53:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f25ccbafb908b145428f063aeefdc42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hoo_qat_manage_0_qat_case_run</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="QAT Management" source="x_hoo_qat_manage_0">a6aa28ebfbcc83905428f063aeefdcba</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3f25ccbafb908b145428f063aeefdc42</sys_update_name>
+            <sys_updated_by>richard.cripps</sys_updated_by>
+            <sys_updated_on>2026-04-20 12:53:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

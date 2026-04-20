@@ -4,13 +4,13 @@
             <element>qat_case</element>
             <position>0</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>b5a4b35d8314c794c8d97c447daad3b9</sys_id>
+            <sys_created_on>2026-04-20 12:42:52</sys_created_on>
+            <sys_id>3da24872fb508b145428f063aeefdccc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>version</element>
             <position>1</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>71a4b35d8314c794c8d97c447daad3ba</sys_id>
+            <sys_created_on>2026-04-20 12:42:52</sys_created_on>
+            <sys_id>35a24872fb508b145428f063aeefdcce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assignment_group</element>
+            <element>sys_created_by</element>
             <position>2</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>3da4b35d8314c794c8d97c447daad3ba</sys_id>
+            <sys_created_on>2026-04-20 12:42:52</sys_created_on>
+            <sys_id>71a24872fb508b145428f063aeefdccf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>39a4f35d8314c794c8d97c447daad312</sys_id>
+            <sys_created_on>2026-04-20 12:42:52</sys_created_on>
+            <sys_id>bda24872fb508b145428f063aeefdccf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>story</element>
             <position>4</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>f1a4f35d8314c794c8d97c447daad313</sys_id>
+            <sys_created_on>2026-04-20 12:42:53</sys_created_on>
+            <sys_id>f9a24872fb508b145428f063aeefdcd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,55 +74,41 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>bda4f35d8314c794c8d97c447daad313</sys_id>
+            <sys_created_on>2026-04-20 12:42:53</sys_created_on>
+            <sys_id>39a24872fb508b145428f063aeefdcd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>6</position>
-            <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>79a4f35d8314c794c8d97c447daad314</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
-            <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>35a4f35d8314c794c8d97c447daad315</sys_id>
+            <sys_created_on>2026-04-20 12:42:53</sys_created_on>
+            <sys_id>75a24872fb508b145428f063aeefdcd2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:53</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>richard.cripps</sys_created_by>
-            <sys_created_on>2026-04-16 14:29:17</sys_created_on>
-            <sys_id>fda4f35d8314c794c8d97c447daad315</sys_id>
+            <sys_created_on>2026-04-20 12:42:53</sys_created_on>
+            <sys_id>b1a24872fb508b145428f063aeefdcd3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_hoo_qat_manage_0_qat_case_steps_version" sys_domain="global" view="Default view">7dce34e7fb0cc3905428f063aeefdc21</sys_ui_section>
             <sys_updated_by>richard.cripps</sys_updated_by>
-            <sys_updated_on>2026-04-16 14:29:17</sys_updated_on>
+            <sys_updated_on>2026-04-20 12:42:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
