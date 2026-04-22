@@ -33,7 +33,7 @@
         <name>x_hoo_qat_manage_0_qat_plan</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -55,7 +55,7 @@
         <sys_scope display_value="QAT Management">a6aa28ebfbcc83905428f063aeefdcba</sys_scope>
         <sys_update_name>sys_dictionary_x_hoo_qat_manage_0_qat_plan_planned_duration</sys_update_name>
         <sys_updated_by>richard.cripps</sys_updated_by>
-        <sys_updated_on>2026-04-10 13:46:23</sys_updated_on>
+        <sys_updated_on>2026-04-20 13:34:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_weighting/>
